@@ -50,7 +50,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 2px solid red;
 }
 
 html, body {
@@ -64,11 +63,19 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+p {
+	font-size: 13px;
+}
+
+hr {
+	width: 98%;
+}
+
 /* Your code starts here! */
 
 /*Navigation=====================================================*/
 .navigationBar {
-	border: 2px solid red;
+	
 }
 
 .navigationBar nav {
@@ -85,7 +92,7 @@ h1, h2, h3, h4, h5 {
 
 /*Header=====================================================*/
 header {
-	border: 2px solid red;
+	
 }
 
 /*Top Content=====================================================*/
@@ -93,33 +100,64 @@ header {
 	position: relative;
 }
 
+.leftDiv, .rightDiv {
+	position: absolute;
+}
+
 .topContent .leftDiv {
 	display: inline-block;
 	width: 49%;
-	margin-left: 25%;
+	padding: 0% 0% 0% 5%;
 }
 
 .topContent .rightDiv {
 	display: inline-block;
 	width: 49%;
-	margin-right: 25%
+	padding: 0% 5% 0% 0%;
 }
 /*Body IMG=====================================================*/
-.bodyIMG {
-	border: 2px solid red;
+.bodyImg {
+	position: relative;
 }
 
+.imgDiv{
+	position: absolute;
+	display: block;
+	width: 98%;
+}
 /*Bottom Content=====================================================*/
 .bottomContent {
-	border: 2px solid red;
+	position: relative;
+}
+
+.divOne, .divTwo, .divThree {
+	position: absolute;
+}
+
+.bottomContent .divOne {
+	display: inline-block;
+	width: 32%;
+	padding: 0% 0% 0% 5%;
+}
+
+.bottomContent .divTwo {
+	display: inline-block;
+	width: 32%;
+	padding: 0% 3% 0% 3%;
+}
+
+.bottomContent .divThree {
+	display: inline-block;
+	width: 32%;
+	padding: 0% 5% 0% 0%;
 }
 
 /*Contact=====================================================*/
 .contactContent {
-	border: 2px solid red;
+	
 }
 
 /*Footer=====================================================*/
 footer {
-	border: 2px solid red;
+	
 }
