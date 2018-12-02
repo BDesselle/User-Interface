@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid red;
 }
 
 html, body {
@@ -65,4 +66,60 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/*Navigation=====================================================*/
+.navigationBar {
+	border: 2px solid red;
+}
 
+.navigationBar nav {
+	display: inline;
+}
+
+.navigationBar img {
+	display: inline;
+}
+
+.navigationBar nav a {
+	color: grey;
+}
+
+/*Header=====================================================*/
+header {
+	border: 2px solid red;
+}
+
+/*Top Content=====================================================*/
+.topContent {
+	position: relative;
+}
+
+.topContent .leftDiv {
+	display: inline-block;
+	width: 49%;
+	margin-left: 25%;
+}
+
+.topContent .rightDiv {
+	display: inline-block;
+	width: 49%;
+	margin-right: 25%
+}
+/*Body IMG=====================================================*/
+.bodyIMG {
+	border: 2px solid red;
+}
+
+/*Bottom Content=====================================================*/
+.bottomContent {
+	border: 2px solid red;
+}
+
+/*Contact=====================================================*/
+.contactContent {
+	border: 2px solid red;
+}
+
+/*Footer=====================================================*/
+footer {
+	border: 2px solid red;
+}
