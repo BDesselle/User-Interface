@@ -49,6 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
+	margin: 0 auto;
 	box-sizing: border-box;
 }
 
@@ -64,21 +65,25 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-	font-size: 13px;
-}
-
-hr {
-	width: 98%;
+	font-size: 15px;
 }
 
 /* Your code starts here! */
 
-/*Navigation=====================================================*/
+.container {
+	height: 1600px;
+	width: 880px;
+	display: block;
+	margin: 0 auto;
+}
+
+/*Navigation===============================================*/
 .navigationBar {
-	
+	width: 875px;
 }
 
 .navigationBar nav {
+	margin-right: 155px;
 	display: inline;
 }
 
@@ -87,77 +92,111 @@ hr {
 }
 
 .navigationBar nav a {
+	margin: 0px 35px 0px 0px;
 	color: grey;
 }
 
-/*Header=====================================================*/
+/*Header==================================================*/
 header {
-	
+	width: 875px;
+	height: 550px;
+	display: block;
 }
 
-/*Top Content=====================================================*/
-.topContent {
+.header h1 {
+	text-align: center;
+	vertical-align: top;
+	height: 400px;
+	font-size: 70px;
 	position: relative;
+	width: 435px;
+	display: inline-block;
+	margin: 150px 0px 0px 0px;
 }
 
-.leftDiv, .rightDiv {
-	position: absolute;
+.header img {
+	position: relative;
+	width: 435px;
+	display: inline-block;
+	margin: 70px 0px 0px 0px;
+}
+
+/*TopContent===============================================*/
+.topContent {
+	width: 875px;
+	height: 135px;
+	display: block;
+	margin: 30px 0px 0px 0px;
 }
 
 .topContent .leftDiv {
+	width: 430px;
+	height: 100px;
 	display: inline-block;
-	width: 49%;
-	padding: 0% 0% 0% 5%;
+	position: relative;
+	margin-right: 10px;
 }
 
 .topContent .rightDiv {
+	width: 430px;
+	height: 100px;
 	display: inline-block;
-	width: 49%;
-	padding: 0% 5% 0% 0%;
-}
-/*Body IMG=====================================================*/
-.bodyImg {
 	position: relative;
+}
+
+/*BodyIMG==================================================*/
+.bodyImg {
+	display: block;
 }
 
 .imgDiv{
-	position: absolute;
 	display: block;
-	width: 98%;
-}
-/*Bottom Content=====================================================*/
-.bottomContent {
-	position: relative;
 }
 
-.divOne, .divTwo, .divThree {
-	position: absolute;
+/*BottomContent============================================*/
+
+.bottomContent {
+	width: 875px;
+	height: 150px;
+	display: block;
+	margin: 30px 0px 0px 0px;
 }
 
 .bottomContent .divOne {
 	display: inline-block;
-	width: 32%;
-	padding: 0% 0% 0% 5%;
+	position: relative;
+	width: 285px;
+	height: 200;
 }
 
 .bottomContent .divTwo {
 	display: inline-block;
-	width: 32%;
-	padding: 0% 3% 0% 3%;
+	position: relative;
+	width: 285px;
+	height: 200;
 }
 
 .bottomContent .divThree {
 	display: inline-block;
-	width: 32%;
-	padding: 0% 5% 0% 0%;
+	position: relative;
+	width: 285px;
+	height: 200;
 }
 
-/*Contact=====================================================*/
+/*Contact=================================================*/
 .contactContent {
-	
+	width: 875px;
+	height: 150px;
+	display: block;
+	margin: 30px 0px 0px 0px;
 }
 
-/*Footer=====================================================*/
+/*Footer==================================================*/
 footer {
-	
+	text-align: center;
+	width: 875px;
+	height: 150px;
+	display: block;
+	margin: 30px 0px 0px 0px;
+	color: grey;
 }
